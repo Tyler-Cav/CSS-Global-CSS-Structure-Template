@@ -1,0 +1,21 @@
+/*
+    1. If you are also using a 3rd party library you will need to
+    find the documentation to see how it implements with custom
+    css.
+
+    2. This will be the ONLY file you should need as the entry point
+    at the root of your app. 
+        - Ex Vite React: Main.tsx -> import './main.css'
+*/
+
+@layer primitives, semantics, reset, base, layouts, typography, components, animations, utilities;
+
+@import './tokens/primitives.css' layer(primitives);
+@import './tokens/semantics.css' layer(semantics);
+@import './reset.css' layer(reset);
+@import './base.css' layer(base);
+@import './layouts.css' layer(layouts);
+@import './typography.css' layer(typography);
+@import './components.css' layer(components);
+@import './animations.css' layer(animations);
+@import './utilities.css' layer(utilities);

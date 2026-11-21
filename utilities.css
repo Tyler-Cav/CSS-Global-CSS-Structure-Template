@@ -1,0 +1,8 @@
+/* 
+    - Single Purpose Use Cases.
+    - .screen-read-only, .hidden, etc.
+*/
+
+.hidden {
+    display: none;
+}
